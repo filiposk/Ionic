@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OfferBookingsPage implements OnInit {
 
-  constructor() { }
+  constructor() {
 
-  ngOnInit() {
+   }
+
+  ngOnInit() { 
   }
 
 }
