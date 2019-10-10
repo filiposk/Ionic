@@ -4,21 +4,13 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 
 import { PlacesPage } from './places.page';
-import { Routes } from '@angular/router';
 import { PlacesRoutingModule } from './places-routing.module';
-
-const routes: Routes = [
-  {
-    path: '',
-    component: PlacesPage
-  }
-];
 
 @NgModule({
   imports: [
     CommonModule,
-    PlacesRoutingModule,
-    IonicModule
+    IonicModule,
+    PlacesRoutingModule
   ],
   declarations: [PlacesPage]
 })

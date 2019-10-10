@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { PlacesService } from '../places.service';
 import { Place } from '../place.model';
 
@@ -8,7 +9,7 @@ import { Place } from '../place.model';
   styleUrls: ['./offers.page.scss'],
 })
 export class OffersPage implements OnInit {
-  offers: Place[]
+  offers: Place[];
 
   constructor(private placesService: PlacesService) { }
 
